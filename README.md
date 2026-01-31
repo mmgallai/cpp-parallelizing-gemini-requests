@@ -14,6 +14,9 @@ Goal: reduce end-to-end latency by parallelizing I/O-bound API calls with Python
 - Serial baseline: ~3.06s per image (100 images)
 - Parallel (5 threads): ~4× speedup under free-tier rate limits
 
+## Results
+![Results](assets/results.png)
+
 ## How to run
 1) Set your API key as an environment variable:
    - `export GEMINI_API_KEY="YOUR_KEY"`
